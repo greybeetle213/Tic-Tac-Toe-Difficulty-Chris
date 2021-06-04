@@ -1,2 +1,3 @@
 # Tic-Tac-Toe
-i made this for ncea level two
+i made cause my uncle is stupid
+my unlce is chris hay
