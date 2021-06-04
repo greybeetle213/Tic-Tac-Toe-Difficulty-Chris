@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="popup.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body onload="init()">
+    <center>
+        <div id="popup">
+            <span id="popupTitle"></span>
+            <br>
+            <span id="popupText"></span>
+            <span id="popupButtons"></span>
+        </div>
+        <canvas id="screen"></canvas>
+    </center>
+    <div id="scores">
+        <span id="xName">X</span>: <span id="xScore">0</span>
+        <br>
+        <span id="oName">O</span>: <span id="oScore">0</span>
+    </div>
+    <button onclick="restart()" id="restartButton">restart game</button>
+</body>
+</html>
